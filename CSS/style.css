@@ -1,0 +1,277 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    text-align: center;
+    background: #1293D4;
+    height: 105px;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
+footer p{
+    padding-top: 40px;
+}
+
+/*clases*/
+
+.Bar_nav{
+    background-color: #24282B;
+    font-size: 25px;
+    padding-top: 0px;
+    height: 100px;
+    border-bottom-color: #1293D4;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+
+}
+.Bar_nav h2{
+    
+    margin: 0px;
+    margin-right: 30%;
+    padding-top: 28px;
+    padding-left: 10%;
+    float: left;
+    background: linear-gradient(to right,white 60%,#1293D4 60%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.Bar_nav ul{
+    padding-top: 40px;
+    margin:0px;
+    
+}
+.Bar_nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 15px;
+}
+.Bar_nav ul li a{
+    text-decoration: none;
+    color: #FFFFF2; 
+}
+.part_uno{
+    background-image: url(/images/cabecera.jpg);
+    background-position: center;
+    height: 500px;
+    text-align: center;
+}
+.part_uno h1{
+    margin: 0px;
+    padding-top: 5%;
+    color: white;
+    font-size: 75px;
+}
+.part_uno p{
+    color: white;
+    font-size: 25px;
+}
+.clear{
+    clear: both;
+}
+.part_dos{
+    background:#24282B;
+    height: 100px;
+}
+.part_dos h3{
+    color: white;
+    float: left;
+    margin: 0px;
+    margin-right: 36%;
+    margin-left: 10%;
+    padding-top: 33px;
+    font-size: 25px;
+}
+.part_dos button{
+    height: 40px;
+    width: 110px;
+    border: none;
+    background: #E8491D;
+    color: white;
+    font-size: 15px;
+}
+.input_uno{
+    margin-top: 35px;
+    height: 30px;
+    width: 350px;
+}
+
+.html5{
+    height: 350px;
+    width: 300px;
+    float: left;
+    margin: 0px;
+    margin-left: 18%;
+}
+.html5 img{
+    height: 120px;
+    width: 120px;
+    margin: 0px;
+    margin-top: 40px;
+    padding-left: 30%;
+}
+.html5 h3{
+    padding-top: 20px;
+    margin: 0px;
+    padding-left: 40%;
+}
+.html5 p{
+    width: 300px;
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.css3{
+    height: 350px;
+    width: 300px;
+    float: left;
+    margin-left: 5%;
+}
+.css3 img{
+    height: 120px;
+    width: 120px;
+    margin: 0px;
+    margin-top: 40px;
+    padding-left: 30%;
+    
+}
+.css3 h3{
+    padding-top: 20px;
+    margin: 0px;
+    padding-left: 42%;
+}
+.css3 p{
+    width: 300px;
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.Diseño_grafico{
+    height: 350px;
+    width: 300px;
+    float: left;
+    margin-left: 5%;
+}
+.Diseño_grafico img{
+    height: 120px;
+    width: 120px;
+    margin: 0px;
+    margin-top: 40px;
+    padding-left: 30%;
+    
+}
+.Diseño_grafico h3{
+    padding-top: 20px;
+    margin: 0px;
+    padding-left: 30%;
+}
+.Diseño_grafico p{
+    width: 300px;
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+/*Pagina Nosotros*/
+.Bar_nav ul .color a{
+    color: #1293D4;
+}
+.Pag2_part_uno {
+    text-align: justify;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    margin-left: 10%;
+}
+.Pag2_part_uno p{
+    font-size: 20px;
+}
+.Parr_dos{
+    background-color: #35424A;
+    color: #FFFFFF;
+}
+.Parr_dos p{
+    padding: 20px;
+}
+.imag img{
+    width: 100% ;
+}
+.Pag2_part_dos{
+    width: 20%;
+    margin: 0px;
+    float: right;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 15%;
+    margin-top: 1%;
+    background-color: #35424A;
+    color: #FFFFFF;   
+}
+.Pag2_part_dos div{
+    padding: 20px;
+}
+/*pagina servicio*/
+.Pag3_part_uno {
+    width: 50%;
+    margin: 0px;
+    margin-left: 10%;
+    font-size: 18px;    
+    float: left;
+}
+.Pag3_part_uno div{
+    background-color: #E6E6E6;
+    height: 160px;
+    padding: 20px;
+    border: solid 1px;
+    border-color: #CCCCCC;
+    margin-bottom: 5px;
+    
+}
+/*pagina Contacto*/
+.Pag4_part_uno{
+    width: 50%;
+    margin: 0px;
+    margin-left: 10%;
+    float: left;
+    font-size: 20px;
+}
+.Pag4_part_uno form input{
+    width: 100%;
+    height: 40px;
+}
+.Pag4_part_uno form textarea{
+    width: 100%;
+    height: 200px;
+}
+.Pag4_part_uno form button{
+    height: 45px;
+    width: 100%;
+    border: none;
+    background: #E8491D;
+    color: white;
+    font-size: 15px;
+}
+.Pag4_part_dos{
+    width: 20%;
+    margin: 0px;
+    float: right;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 15%;
+    margin-top: 1%;
+    background-color: #ffffff;
+    color: #FFFFFF;   
+}
+.Pag4_part_dos div{
+    padding: 20px;
+    background: #24282B;
+    height: 100%;
+}
+.Pag4_part_dos img{
+    width: 100%;
+    margin-top: 5%;
+}
